@@ -19,7 +19,7 @@ public class DragAndDrawFragment extends Fragment{
         return fragment;
     }
 
-    BoxDrawingView mBoxDrawingView;
+//    BoxDrawingView mBoxDrawingView;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -29,8 +29,8 @@ public class DragAndDrawFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragement_dnd, container, false);
-        mBoxDrawingView = (BoxDrawingView) v.findViewById(R.id.box_drawing_view);
+        View v = inflater.inflate(R.layout.fragment_point_finger, container, false);
+//        mBoxDrawingView = (BoxDrawingView) v.findViewById(R.id.box_drawing_view);
 
         return v;
     }
